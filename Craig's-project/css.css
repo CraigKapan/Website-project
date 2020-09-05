@@ -378,7 +378,7 @@ a {
     width: 60px;
     transform: translate(-50%, -50%);
     left: 50%;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .banner-heading {
@@ -390,11 +390,50 @@ a {
 .banner-para {
     color: white;
     font-size: 18px;
-    margin: 0 auto;
+    margin: 10px auto;
     font-weight: 200;
     text-align: center;
 }
 
 .banner-heading h1 {
     font-weight: 100;
+}
+
+/* ============================== */
+/* Contact and Pofilo btn */
+/* ============================== */
+
+.Contact-btn,
+.Pofilo-btn {
+    padding: 18px 16px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.3s all linear;
+}
+
+.Contact-btn {
+    background-color: #49a6e9;
+    color: white;
+    border: 2px solid #49a6e9;
+}
+
+.Contact-btn:hover {
+    border: 2px solid #49a6e9;
+    color: #49a6e9;
+    background-color: white;
+}
+
+.Pofilo-btn {
+    border: 2px solid #49a6e9;
+    color: #49a6e9;
+}
+
+.Pofilo-btn:hover {
+    background-color: #49a6e9;
+    color: white;
+    border: 2px solid #49a6e9;
+}
+
+.btn-container {
+    text-align: center;
 }
