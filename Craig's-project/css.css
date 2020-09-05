@@ -390,7 +390,7 @@ a {
 .banner-para {
     color: white;
     font-size: 18px;
-    margin: 10px auto;
+    margin: 20px auto;
     font-weight: 200;
     text-align: center;
 }
@@ -407,7 +407,7 @@ a {
 .Pofilo-btn {
     padding: 18px 16px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 20px;
     transition: 0.3s all linear;
 }
 
