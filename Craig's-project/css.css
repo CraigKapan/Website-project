@@ -53,7 +53,7 @@ a {
 
 .hero-img {
     min-height: 100vh;
-    min-width: 90vh;
+    min-width: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("image/pexels-christina-morillo-1181244.jpg") center/cover no-repeat;
 }
 
@@ -366,7 +366,6 @@ a {
 
 .banner {
     position: absolute;
-    width: 1140px;
     top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -382,3 +381,23 @@ a {
     margin: 20px auto;
 }
 
+.banner-heading {
+    color: white;
+    width: 700px;
+    font-size: 30px;
+}
+
+.banner-para {
+    color: white;
+    width: 500px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.banner-heading h1 {
+    font-weight: 100;
+}
+
+.banner-para {
+    font-weight: 200;
+}
