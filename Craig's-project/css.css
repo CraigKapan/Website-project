@@ -389,15 +389,12 @@ a {
 
 .banner-para {
     color: white;
-    width: 500px;
     font-size: 18px;
     margin: 0 auto;
+    font-weight: 200;
+    text-align: center;
 }
 
 .banner-heading h1 {
     font-weight: 100;
-}
-
-.banner-para {
-    font-weight: 200;
 }
