@@ -405,7 +405,7 @@ a {
 /* ============================== */
 
 .Contact-btn,
-.Pofilo-btn {
+.Portfolio-btn {
     padding: 18px 16px;
     border-radius: 10px;
     margin: 20px;
@@ -424,13 +424,13 @@ a {
     background-color: white;
 }
 
-.Pofilo-btn {
+.Portfolio-btn {
     border: 2px solid #49a6e9;
     color: #49a6e9;
     background-color: white;
 }
 
-.Pofilo-btn:hover {
+.Portfolio-btn:hover {
     background-color: #49a6e9;
     color: white;
     border: 2px solid #49a6e9;
@@ -489,7 +489,7 @@ a {
 /* Pofilo */
 /* ============================== */
 
-.pofilo-box {
+.portfolio-box {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -498,13 +498,13 @@ a {
     padding: 150px;
 }
 
-.pofilo-heading {
+.portfolio-heading {
     font-family: sans-serif;
     font-size: 50px;
     margin: 50px;
 }
 
-.pofilo-heading:after {
+.portfolio-heading:after {
     content: ' ';
     display: block;
     border: 2px solid #49a6e9;
@@ -519,7 +519,7 @@ a {
     margin: 10px;
 }
 
-.pofilo-link {
+.portfolio-link {
     text-decoration: none;
     color: black;
     margin-left: 60px;
