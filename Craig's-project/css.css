@@ -46,7 +46,16 @@ a {
     width: 60px;
     margin: 15px auto;
 }
+.clearfix:after {
+    content: ' ';
+    clear: both;
+    display: table;
+}
 
+.icon {
+    color: white;
+    font-size: 50px;
+}
 /* ============================== */
 /* Hero */
 /* ============================== */
@@ -523,4 +532,88 @@ a {
     text-decoration: none;
     color: black;
     margin-left: 60px;
+}
+
+/* ============================== */
+/* About */
+/* ============================== */
+
+.img {
+    height: 400px;
+    width: 400px;
+    float: left;
+    border-radius: 10px;
+}
+
+.about-heading {
+    font-family: sans-serif;
+    font-size: 100px;
+    padding-left: 75px;
+    font-weight: 100;
+}
+
+.about-heading:after {
+    content: ' ';
+    display: block;
+    border: 2px solid #49a6e9;
+    width: 60px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin: 10px auto;
+}
+
+.about-content {
+    padding-left: 500px;
+    width: 1000px;
+    padding-top: 100px;
+    margin-left: 150px;
+}
+
+.about-para {
+    text-align: center;
+    font-size: 20px;
+}
+
+.service {
+    background-color: #49a6e9;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 45px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.service-heading {
+    color: white;
+    font-size: 35px;
+}
+
+.main-service-heading {
+    display: block;
+    width: 1000px;
+    height: 100px;
+    padding: 100px;
+    padding-left: 500px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.service-btn {
+    background-color: #49a6e9;
+    color: white;
+    border: 2px solid #49a6e9;
+    padding: 18px 50px;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.3s all linear;
+    position: absolute;
+    top: 130%;
+    left: 29%;
+}
+
+.service-btn:hover {
+    border: 2px solid #49a6e9;
+    color: #49a6e9;
+    background-color: white;
 }
