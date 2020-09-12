@@ -508,6 +508,7 @@ a {
 .details {
     margin: 45px;
     float: left;
+    margin-right: 400px;
 }
 
 .contact-heading {
@@ -532,7 +533,6 @@ a {
     font-size: 18px;
     margin: 5px;
 }
-
 /* ============================== */
 /* Pofilo */
 /* ============================== */
