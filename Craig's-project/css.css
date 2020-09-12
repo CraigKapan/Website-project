@@ -40,8 +40,8 @@ a {
 }
 
 .container {
-    width: 90vw;
     margin: 0 auto;
+    text-align: center;
 }
 
 .underline {
@@ -67,6 +67,14 @@ a {
 
 .ions {
     margin: 5px;
+}
+
+/* ============================== */
+/* Map */
+/* ============================== */
+
+.map {
+    margin: 40px 0 0 40px;
 }
 
 /* ============================== */
@@ -266,8 +274,9 @@ a {
 /* Logo */
 /* ============================== */
 
-.logo-sword {
+.logo {
     height: 40px;
+    border-radius: 10px;
 }
 
 /* ============================== */
@@ -278,7 +287,7 @@ a {
     display: block;
     font-size: 1.5rem;
     padding: 1rem 1.5rem;
-    color: #617d98;
+    color: black;
     transition: all 0.4s linear;
 }
 
@@ -443,7 +452,8 @@ a {
     margin: 20px auto;
     font-weight: 200;
     text-align: center;
-    margin-bottom: 40px;
+    margin: 30px;
+    margin-bottom: 50px;
 }
 
 .banner-heading h1 {
@@ -494,28 +504,16 @@ a {
 /* Contact */
 /* ============================== */
 
-.contact-box {
-    position: absolute;
-    top: 58%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.1);
-    padding: 150px;
-}
 
 .details {
+    margin: 45px;
     float: left;
-    margin: 20px;
-}
-
-.details-answers {
-    float: right;
-    margin: 20px;
 }
 
 .contact-heading {
     font-family: sans-serif;
     font-size: 50px;
+    text-align: center;
 }
 
 .contact-heading:after {
@@ -579,6 +577,7 @@ a {
     width: 400px;
     float: left;
     border-radius: 10px;
+    margin: 35px;
 }
 
 .about-heading {
@@ -619,6 +618,7 @@ a {
     height: auto;
     text-align: center;
     padding: 3rem;
+    margin: 50px;
 }
 
 .service-heading {
@@ -642,11 +642,8 @@ a {
     border: 2px solid #49a6e9;
     padding: 18px 50px;
     border-radius: 10px;
-    margin: 20px;
+    margin: 20px; 
     transition: 0.3s all linear;
-    position: absolute;
-    top: 130%;
-    left: 29%;
 }
 
 .service-btn:hover {
