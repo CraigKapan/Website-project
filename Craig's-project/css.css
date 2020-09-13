@@ -70,14 +70,6 @@ a {
 }
 
 /* ============================== */
-/* Map */
-/* ============================== */
-
-.map {
-    margin: 40px 0 0 40px;
-}
-
-/* ============================== */
 /* Social Media icons */
 /* ============================== */
 
@@ -501,20 +493,41 @@ a {
 }
 
 /* ============================== */
-/* Contact */
+/* Map */
 /* ============================== */
 
+.map {
+    margin: 40px 0 0 40px;
+    width: 50%;
+    height: 100%;
+}
+
+/* ============================== */
+/* Contact */
+/* ============================== */
+.contact-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 50px;
+}
 
 .details {
-    margin: 45px;
-    float: left;
-    margin-right: 400px;
+    width: 50%;
+    height: 100%;
 }
 
 .contact-heading {
     font-family: sans-serif;
     font-size: 50px;
     text-align: center;
+    margin-bottom: 70px;
+}
+
+.contact-box {
+    width: 50%;
+    height: 100%;
 }
 
 .contact-heading:after {
@@ -524,11 +537,10 @@ a {
     width: 60px;
     transform: translate(-50%, -50%);
     left: 50%;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
-.details p,
-.details-answers p {
+.details p {
     font-family: sans-serif;
     font-size: 18px;
     margin: 5px;
