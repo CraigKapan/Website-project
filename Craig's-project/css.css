@@ -586,6 +586,7 @@ a {
     float: left;
     border-radius: 10px;
     margin: 35px;
+    border: 2px solid #49a6e9;
 }
 
 .about-heading {
@@ -627,6 +628,7 @@ a {
     text-align: center;
     padding: 3rem;
     margin: 50px;
+    border-radius: 10px;
 }
 
 .service-heading {
@@ -642,6 +644,16 @@ a {
     padding-left: 500px;
     font-size: 50px;
     font-weight: 100;
+}
+
+.main-service-heading:after {
+    content: ' ';
+    display: block;
+    border: 2px solid #49a6e9;
+    width: 60px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin: 10px auto;
 }
 
 .service-btn {
@@ -671,6 +683,13 @@ a {
     padding: 16px 30px;
     border-radius: 10px;
     color: white;
+    transition: all 0.4s linear;
+}
+
+.btn-link:hover {
+    border: 1px solid orange;
+    color: orange;
+    background-color: white;
 }
 
 /* ============================== */
