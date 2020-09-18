@@ -297,6 +297,8 @@ a {
     justify-self: center;
     display: flex;
     padding-bottom: 2rem;
+    
+    transition: all 10s linear;
 }
 
 .social-icons a {
@@ -306,9 +308,11 @@ a {
     transition: all 0.4s linear;
 }
 
-.social-icons a:hover {
+.social-icons :hover {
     color: #063251;
+    transform: rotate(90deg);
 }
+/*/*//*/*//*/*/
 
 /* ============================== */
 /* Bounce Animation */
@@ -699,8 +703,11 @@ a {
 .footer {
     width: 100%;
     background-color: #333;
-    padding: 40px;
+    padding: 20px;
     color: #888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .link {
@@ -709,11 +716,8 @@ a {
 
 .footer-text {
     text-align: center;
-    margin-top: 30px;
-    margin-left: 100px;
 }
 
 .social-media {
     float: right;
-    margin-top: -50px;
 }
